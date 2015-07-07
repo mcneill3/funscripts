@@ -5,10 +5,10 @@ content = f.read
 r = Regexp.new(/\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}\b/)
 emails = content.scan(r).uniq
 
-# emails = ["colinpmcneill@gmail.com", "burke.ramsey@gmail.com", "colinpmcneill@yahoo.com"]"
+# emails = ["colinpmcneill@gmail.com", "burke.ramsey@gmail.com", "colinpmcneill@yahoo.comcolinpmc"]
 
 emails.each do |mail|
-  gmail = Gmail.new("colinpmcneill@gmail.com", "sfoidrlgdjhxkbpk")
+  gmail = Gmail.new("colinpmcneill@gmail.com", "APPCODE" )
 
   gmail.deliver do
     to mail
