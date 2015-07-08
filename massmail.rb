@@ -13,7 +13,7 @@ emails.each do |mail|
 
     subject "Software Engineer/Developer Role"
     text_part do
-      body "Hello!\n\nMy name is Colin McNeill. I think I'd be a great addition to your team given my education and professional software experience.\nPlease checkout my github and LinkedIN!\n\nhttps://github.com/mcneill3\nhttps://www.linkedin.com/in/colinpmcneill\n\nI'm looking forward to your response!\n\n\nColin P. McNeill\n\nSoftware Developer\nUniversity of Illinois at Champaign-Urbana\n\ncolinpmcneill@gmail.com\nmcneill3@illinois.edu\n(765)-480-0311"
+      body "Hello!\n\nMy name is Colin McNeill. I think I'd be a great addition to your team given my education and professional software experience.\nPlease checkout my github and LinkedIN!\n\nhttps://github.com/mcneill3\nhttps://www.linkedin.com/in/colinpmcneill\n\nI'm looking forward to your response!\n\n\nColin P. McNeill\n\nSoftware Developer\nUniversity of Illinois at Champaign-Urbana\n\ncolinpmcneill@gmail.com\nmcneill3@illinois.edu\nDon't Call ME"
     end
 
     add_file "/Users/cpm/Documents/ColinPMcNeillresume_updated2015.docx"
